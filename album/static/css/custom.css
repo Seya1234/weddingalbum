@@ -1,0 +1,110 @@
+body{
+background-color: LightCyan;
+
+}
+
+/***Navbar ***/
+
+.my_footer{
+    position: fixed;
+    height:50px;
+    height:40px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.my_footer{
+
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:DarkTurquoise;
+  color: white;
+  text-align: center;
+}
+
+.my_footer p{
+    padding-top:20px;
+    font-size:14px;
+}
+
+.my_header{
+    height:100px;
+    background-color:DarkTurquoise;
+}
+/*** Category page ***/
+
+.my_row{
+    padding-top :15px;
+    color:gold;
+
+}
+.my_row .mx_auto{
+    font-size: 12px;
+}
+
+.my_title1{
+    font-size: 50px;
+    text_transform:uppercase;
+    letter-spacing: .005em;
+    color: RoyalBlue;
+    vertical-align:middle;
+    font-family: 'Yatra One', cursive;
+
+
+}
+.my_title2{
+    font-size: 30px;
+    text_transform:uppercase;
+    letter-spacing: .2em;
+    color: DeepSkyBlue;
+
+}
+.my_title3{
+    font-size: 20px;
+    text_transform:uppercase;
+    letter-spacing: .2em;
+    color: DarkTurquoise;
+
+}
+.my_title4{
+    font-size: 20px;
+    text_transform:uppercase;
+    letter-spacing: .2em;
+    color: LightBlue;
+
+}
+.my_title5{
+    font-size: 20px;
+    text_transform:uppercase;
+    letter-spacing: .2em;
+    color: LightSteelBlue;
+
+}
+.my_title6{
+    font-size: 20px;
+    text_transform:uppercase;
+    letter-spacing: .2em;
+    color: Aquamarine;
+
+}
+.my_title7{
+    font-size: 25px;
+    letter-spacing: .05em;
+    font-family: 'Niconne', cursive;
+
+
+}
+.my_bottom_margin{
+    margin-bottom:10px;
+}
+.card-body h5{
+font-size:16px;
+text-transform:uppercase;
+letter-spacing:.2em;
+}
+
+

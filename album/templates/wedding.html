@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block metadescription %}
+
+         Forever and always!
+
+{% endblock %}
+{% block title %}
+    e album- Sreya & Sethu
+{% endblock %}
+{% block content%}
+<h1 class="text-center my_title1">Wedding Photos</h1>
+
+
+
+        {% for i in wedding_list %}
+
+            <center><img src="{{i.wedding_img.url}}" alt="Card image not loading :/"></div></center>
+            <br>
+
+        {% endfor %}
+
+{% endblock %}

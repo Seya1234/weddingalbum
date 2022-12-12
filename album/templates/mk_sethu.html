@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block metadescription %}
+
+         Forever and always!
+
+{% endblock %}
+{% block title %}
+    e album- Sreya & Sethu
+{% endblock %}
+{% block content%}
+<h1 class="text-center my_title1">Maduram kodukal Photos- Sethu</h1>
+
+
+
+        {% for i in mk_sethu_list %}
+
+            <center><img src="{{i.mk_sethu_img.url}}" alt="Card image not loading :/"></div></center>
+            <br>
+
+        {% endfor %}
+
+{% endblock %}
